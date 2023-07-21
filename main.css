@@ -1,0 +1,124 @@
+/* Basic */
+
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:after {
+		box-sizing: inherit;
+	}
+
+	body {
+    margin: 0;
+	  vertical-align: baseline;
+    background: #fff;
+		color: #a2a2a2;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 16pt;
+		font-weight: 400;
+		line-height: 1.75em;
+	}
+
+	strong, b {
+		color: #787878;
+		font-weight: 400;
+	}
+
+	h1, h2, h3 {
+		color: #787878;
+		font-weight: 400;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+	}
+
+	h1 {
+		font-size: 2em;
+		line-height: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		line-height: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+		line-height: 1.5em;
+	}
+
+/* Row */
+
+	.row {
+		display: flex;
+	}
+
+	.row > .col-6 {
+		width: 50%;
+	}
+
+	.row {
+		margin-top: 0;
+		margin-left: -2.5em;
+	}
+
+	.row > * {
+		padding: 0 0 0 2.5em;
+	}
+
+/* Image */
+
+	img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+/* Header */
+	#header {
+		background-image: url("bg.jpg");
+		background-position: top left, top left;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, 150%;
+		height: 100%;
+		padding: 8em 4em;
+		position: fixed;
+		text-align: right;
+		width: 35%;
+	}
+
+		#header strong, #header b {
+			color: #ffffff;
+		}
+
+		#header h1 {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.35em;
+			line-height: 1.75em;
+			margin: 0;
+		}
+
+/* Main */
+
+	#main {
+		margin-left: 35%;
+		max-width: 54em;
+		padding: 8em 4em 4em 4em;
+		width: calc(100% - 35%);
+	}
+
+		#main > section {
+			border-top: solid 2px #efefef;
+			margin: 4em 0 0 0;
+			padding: 4em 0 0 0;
+		}
+
+			#main > section:first-child {
+				border-top: 0;
+				margin-top: 0;
+				padding-top: 0;
+			}
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
